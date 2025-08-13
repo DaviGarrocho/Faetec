@@ -1,0 +1,35 @@
+CREATE TABLE clientes (
+id SERIAL PRIMARY KEY,
+nome VARCHAR(100) NOT NULL,
+email VARCHAR(100) UNIQUE NOT NULL,
+idade INT,
+cidade VARCHAR(50)
+);
+-- 4. Insere 25 registros
+INSERT INTO clientes (nome, email, idade, cidade) VALUES
+('Ana Silva', 'ana.silva@email.com', 28, 'São Paulo'),
+('Bruno Souza', 'bruno.souza@email.com', 35, 'Rio de Janeiro'),
+('Carla Pereira', 'carla.pereira@email.com', 22, 'Belo Horizonte'),
+('Daniel Costa', 'daniel.costa@email.com', 40, 'Porto Alegre'),
+('Eduarda Lima', 'eduarda.lima@email.com', 31, 'Curitiba'),
+('Felipe Gomes', 'felipe.gomes@email.com', 27, 'Recife'),
+('Gabriela Rocha', 'gabriela.rocha@email.com', 45, 'Fortaleza'),
+('Henrique Alves', 'henrique.alves@email.com', 33, 'Salvador'),
+('Isabela Fernandes', 'isabela.fernandes@email.com', 29, 'Brasília'),
+('João Pedro', 'joao.pedro@email.com', 38, 'Manaus'),
+('Karina Martins', 'karina.martins@email.com', 26, 'Belém'),
+('Leonardo Dias', 'leonardo.dias@email.com', 42, 'Goiânia'),
+('Mariana Ribeiro', 'mariana.ribeiro@email.com', 24, 'Natal'),
+('Nicolas Mendes', 'nicolas.mendes@email.com', 37, 'Florianópolis'),
+('Olivia Cardoso', 'olivia.cardoso@email.com', 30, 'Vitória'),
+('Paulo Henrique', 'paulo.henrique@email.com', 32, 'Maceió'),
+('Queila Freitas', 'queila.freitas@email.com', 35, 'João Pessoa'),
+('Rafael Barbosa', 'rafael.barbosa@email.com', 28, 'Teresina'),
+('Sabrina Moreira', 'sabrina.moreira@email.com', 41, 'Aracaju'),
+('Thiago Azevedo', 'thiago.azevedo@email.com', 39, 'Campo Grande'),
+('Ursula Nunes', 'ursula.nunes@email.com', 27, 'Macapá'),
+('Victor Faria', 'victor.faria@email.com', 36, 'Boa Vista'),
+('William Pires', 'william.pires@email.com', 34, 'Palmas'),
+('Ximena Castro', 'ximena.castro@email.com', 25, 'Porto Velho'),
+('Yuri Sales', 'yuri.sales@email.com', 29, 'Rio Branco'),
+('Davi Gs', 'davigarrocho11@gmail.com', '17', 'Rio de Janeiro');

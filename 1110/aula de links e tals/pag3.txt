@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pag1</title>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 20px solid black;
+			width: 50%;
+        }
+		
+    </style>
+</head>
+<body>
+
+<a href="pag2.html">Pagina da imagem</a>
+    <img src="image.jpg" alt="Imagem" class="center">
+</body>
+</html>

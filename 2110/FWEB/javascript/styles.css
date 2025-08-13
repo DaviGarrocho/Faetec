@@ -1,0 +1,50 @@
+body {
+    background-color: #FFffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.exemplo1 {
+    color: #e74c3c;
+    font-size: 18px;
+    font-family: Georgia, serif;
+}
+
+.exemplo2 {
+    background-color: #dff9fb;
+    color: #130f40;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+}
+
+/* Estilo do botão */
+#botaoMagico {
+    background-color: #0a82fd;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#botaoMagico:hover {
+    background-color: #ff5733;
+}
+
+#mensagem {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}

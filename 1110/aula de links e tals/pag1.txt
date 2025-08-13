@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pag1</title>
+    <style>
+	body{
+	{
+            background-color: pink;
+	}
+		a {
+			background-color:pink
+			color:white
+			text-decoration:none;
+			padding:10px; border-radius:8%;
+		}
+    </style>
+</head>
+<body>
+
+    
+<a href="pag3.html">Pagina da imagem</a>
+</body>
+</html>
